@@ -23,7 +23,7 @@ An implementation of an unbiased scene graph generator using Kaihua Tang’s pub
 Creation of tutorials for Machine Learning Basics, as part of the teaching assistantship at SEECS, NUST. Tutorials include coding lessons for the most commonly used libraries in Machine Learning.
 </sm>
 
-3. [**Systematic Comparison of Neural Network Architectures**](https://github.com/danyalsaqib/Transfer-Learning-with-Data-Augmentation)  
+3. [**Systematic Comparison of Neural Network Architectures**](https://github.com/danyalsaqib/Transfer-Learning-with-Data-Augmentation)
 *Danyal Saqib*
 <sm style="font-size: 0.8em;">
 Comparing different CNN Architectures using Transfer Learning. Also compared various data augmentation techniques such as geometric transformations, DCT, and DWT.
