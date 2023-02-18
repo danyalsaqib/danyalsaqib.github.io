@@ -24,6 +24,7 @@ Creation of tutorials for Machine Learning Basics, as part of the teaching assis
 </sm>
 
 3. [**Systematic Comparison of Neural Network Architectures**](https://github.com/danyalsaqib/Transfer-Learning-with-Data-Augmentation)  
+*Danyal Saqib*
 <sm style="font-size: 0.8em;">
 Comparing different CNN Architectures using Transfer Learning. Also compared various data augmentation techniques such as geometric transformations, DCT, and DWT.
 </sm>
