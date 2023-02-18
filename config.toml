@@ -1,6 +1,6 @@
 
 # Global options
-baseURL = "/"
+baseURL = "https://danyalsaqib.github.io"
 canonifyURLs = true
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
