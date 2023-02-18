@@ -98,4 +98,4 @@ title = "Danyal Saqib"
         xHTML = true
 
     [markup.highlight]
-        style = 'algol'
+        style = 'dracula'
