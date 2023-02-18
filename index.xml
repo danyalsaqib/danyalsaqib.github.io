@@ -3,11 +3,4 @@ I previously completed my Bachelor&amp;rsquo;s degree in Electrical Engineering 
 Danyal Saqib, Salman Nasir, Obaid-ur-Rahman, Abdul Mohaiman Hashmi
 This is my Bachelor’s thesis. We created a scalable robotic setup that automates both the collection of data, dataset labelling, and the training of the Neural Network for grasping. Based on papers published by Alex Krizhevsky and Abhinav Gupta. Unbiased Scene Graph Generation
 Danyal Saqib
-An implementation of an unbiased scene graph generator using Kaihua Tang’s published papers and github repository as references.</description></item><item><title>Publications</title><link>/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/publications/</guid><description>Peer reviewed papers MEGA: Malleable Encryption Goes Awry (to appear)
-M. Backendal, M. Haller, and K.G. Paterson
-44th IEEE Symposium on Security and Privacy (SP 2023)
-pp. ??–??. IEEE, May 2023 Puncturable Key Wrapping and Its Applications
-M. Backendal, F. Günther, and K.G. Paterson
-28th International Conference on the Theory and Application of Cryptology and Information Security (ASIACRYPT 2022)
-Lecture Notes in Computer Science, Volume ?????, pp. ??–??. Springer, Dec 2022.</description></item><item><title>Teaching</title><link>/teaching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/teaching/</guid><description>When one teaches, two learn. –Robert Heinlein
-I think teaching is one of the most rewarding activities one can engage in. There is a profound joy in watching someone have an &amp;ldquo;aha&amp;rdquo;-moment and see how things fall into place. I also think it&amp;rsquo;s one of the best ways to learn new things myself. Students&amp;rsquo; questions and muddy points challenge my understanding of the topic I&amp;rsquo;m teaching, and their background knowledge and insights broaden my perspective.</description></item></channel></rss>
+An implementation of an unbiased scene graph generator using Kaihua Tang’s published papers and github repository as references.</description></item></channel></rss>
