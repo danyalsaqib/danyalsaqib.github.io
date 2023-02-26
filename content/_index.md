@@ -1,6 +1,6 @@
 ---
 layout: landing_page
-image: danyal.jpg
+image: danyal_cropped.jpg
 ---
 
 Hi, I'm Danyal,
