@@ -12,6 +12,8 @@ main {
         font-weight: bold;
         text-decoration: none;
         display: inline-block;
+        word-break: break-all !important; /* make sure containers don't override */
+        display: inline-block !important;
     }
 
     /* a:hover  {
