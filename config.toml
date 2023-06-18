@@ -2,6 +2,7 @@
 # Global options
 baseURL = "/"
 canonifyURLs = true
+copyright = "© 2023 by Danyal Saqib. <a href='/privacy'>Privacy policy</a>."
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 languageCode = "en"

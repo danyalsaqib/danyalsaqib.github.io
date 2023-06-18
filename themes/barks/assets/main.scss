@@ -9,14 +9,30 @@ main {
 
     a {
         color: $text-color;
-        text-decoration: underline;
-        text-decoration-style: dotted;
-        text-underline-offset: 3px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
     }
 
-    a:hover  {
+    /* a:hover  {
+        text-decoration: underline;
+        transition: width 0.25s;
         text-decoration-style: solid;
         text-decoration-color: $link-color;
+    } */
+
+    a::after {
+    margin-top: -2px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $text-color;
+    transition: width 0.25s;
+    }
+
+    a:hover::after {
+    width: 100%;
     }
 
 
