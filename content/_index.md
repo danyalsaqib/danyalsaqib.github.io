@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        # color: black
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research interests include interactive robotics, compliant control algorithms, and physical human-robot interaction (pHRI). I am currently researching energy-based control methods for safe pHRI, that can guarantee energy limitation for robotic manipulators both within and outside of contact scenarios. I leverage modern controls and dynamical systems theory for controller analysis and design.
         
-        Please reach out to collaborate 😃
+        I am privileged to have had the opportunity to work with several interesting robots. I designed customized controllers for the Reachy Robot by Pollen Robotics at the Human-Robot Collaboration lab at the University of Calgary. I also recently had the chance to do part of my research at the University of Waterloo's RoboHub, where I had the opportunity of implementing a novel compliant controller on the Talos Humanoid Robot by Pal Robotics.
+        
+        For collaborations or any other general queries, please feel free to reach out via email 😃
     design:
       columns: '1'
   - block: collection

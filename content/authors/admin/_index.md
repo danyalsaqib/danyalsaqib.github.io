@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Danyal Saqib (دانیال ثاقب)
+title: دانیال ثاقب
 
 # Name pronunciation (optional)
-#name_pronunciation: Chien Shiung Wu
+name_pronunciation: Danyal Saqib
 
 # Full name (for SEO)
 first_name: Danyal
@@ -168,4 +168,4 @@ languages:
 
 ## About Me
 
-I am a MSc student at the University of Calgary's Mechanical Engineering department, with research focusing on Robotics and Controls. I am a part of the Human-Robot Collaboration lab, supervised by Dr. Marie Charbonneau. My research interests include interactive robotics, compliant control algorithms, and physical human-robot interaction (pHRI). I am currently researching energy-based control methods for safe pHRI.
+I am a MSc student at the University of Calgary's Mechanical Engineering department, with research focusing on Robotics and Controls. I am a part of the Human-Robot Collaboration lab, supervised by Dr. Marie Charbonneau. My research focuses on control algorithms that can make physical Human-Robot interaction safe, by behaving compliantly (or softly) in response to human contact.
