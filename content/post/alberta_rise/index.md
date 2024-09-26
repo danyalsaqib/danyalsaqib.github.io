@@ -23,3 +23,4 @@ date: 2024-09-25
 ## Poster Presentation
 
 Our abstract titled "Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction" has been accepted for a poster presentation at the Alberta RISE Conference 2024! The conference will be held at the University of Alberta in November 2024, and will host various researchers and industry experts to talk about the latest in robotics. Looking forward to seeing everyone there!
+---
