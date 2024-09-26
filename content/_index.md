@@ -27,7 +27,7 @@ sections:
           filename: bg-1.jpg
           # filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
