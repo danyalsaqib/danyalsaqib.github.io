@@ -54,7 +54,7 @@ interests:
 education:
   - area: MSc Mechanical Engineering
     institution: University of Calgary
-    date_start: 2022-09-1
+    date_start: 2022-09-01
     # date_end: 
     summary: |
       I am researching novel Compliant Control algorithms, for safe human-robot interaction.
@@ -63,8 +63,8 @@ education:
     #   url: 'https://example.com'
   - area: BSc Electrical Engineering
     institution: National University of Sciences and Technology (NUST)
-    date_start: 2017-09-1
-    date_end: 2021-06-1
+    date_start: 2017-09-01
+    date_end: 2021-06-01
     summary: |
       Completed my Bachelor's in Electrical Engineering from SEECS, NUST, Islamabad, Pakistan. My undergraduate thesis was in the domain
       of self-supervised robotic learning.
