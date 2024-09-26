@@ -40,7 +40,7 @@ sections:
         
         I am privileged to have had the opportunity to work with several interesting robots. I designed customized controllers for the Reachy Robot by Pollen Robotics at the Human-Robot Collaboration lab at the University of Calgary. I also recently had the chance to do part of my research at the University of Waterloo's RoboHub, where I had the opportunity of implementing a novel compliant controller on the Talos Humanoid Robot by Pal Robotics.
         
-        For collaborations or any other general queries, please feel free to reach out via email 😃
+        For collaborations or any other general queries, please feel free to reach out via email!
     design:
       columns: '1'
   # - block: collection
