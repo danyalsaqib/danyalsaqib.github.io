@@ -156,8 +156,7 @@ awards:
   - title: NUST Merit Scholarship
     # url: https://www.coursera.org/learn/neural-networks-deep-learning
     awarder: SEECS, NUST
-    date: false
-    # icon: coursera
+    show_date: false
     summary: |
       A Merit Scholarship, provided on a 3.8 and higher semester GPA.
 
