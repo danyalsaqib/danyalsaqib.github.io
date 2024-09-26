@@ -18,9 +18,10 @@ image:
 #   - Markdown
 # ---
 
+---
+
 {{< toc mobile_only=true is_open=true >}}
 
 ## Montreal Robotics Summer School
 
 The Montreal Robotics Summer School was held in Montreal in June 2023. I was grateful to be a part of a week-long learning experience. Talks from leading researchers on the cutting-edge research were complemented by hands on workshops and tutorials invloving legged robot locomotion, navigation, and planning. On the final day, an obstacle avoidance competition was held for the quadruped robots, which my team ended up winning! A huge shoutout to everyone involved in organizing the summer school, and all the fellow grad students I ended up connecting with. It was an absolute blast throughout!
----
