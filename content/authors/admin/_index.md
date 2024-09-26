@@ -155,7 +155,8 @@ awards:
       Winner of the Autonomous Robotic Navigation Challenge at the Montreal Robotics Summer School 2023, held at Mila - Quebec AI Institute.
   - title: NUST Merit Scholarship
     # url: https://www.coursera.org/learn/neural-networks-deep-learning
-    # date: '2024-09-25'
+    date: '2019-07-01'
+    date: '2020-01-01'
     awarder: SEECS, NUST
     # icon: coursera
     summary: |
