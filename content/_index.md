@@ -38,7 +38,7 @@ sections:
       text: |-
         My research interests include interactive robotics, compliant control algorithms, and physical human-robot interaction (pHRI). I am currently researching energy-based control methods for safe pHRI, that can guarantee energy limitation for robotic manipulators both within and outside of contact scenarios. I leverage modern controls and dynamical systems theory for controller analysis and design.
         
-        I am privileged to have had the opportunity to work with several interesting robots. I designed customized controllers for the Reachy Robot by Pollen Robotics at the Human-Robot Collaboration lab at the University of Calgary. I also recently had the chance to do part of my research at the University of Waterloo's RoboHub, where I had the opportunity of implementing a novel compliant controller on the Talos Humanoid Robot by Pal Robotics.
+        I am privileged to have had the opportunity to work with several interesting robots. I designed customized controllers for the Reachy Robot by Pollen Robotics at the Calgary Human-Robot Collaboration lab at the University of Calgary. I also recently had the chance to do part of my research at the University of Waterloo's RoboHub, where I had the opportunity of implementing a novel compliant controller on the Talos Humanoid Robot by Pal Robotics.
         
         For collaborations or any other general queries, please feel free to reach out via email!
     design:

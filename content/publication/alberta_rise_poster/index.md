@@ -16,7 +16,7 @@ publication_types: ["abstract"]
 publication: "Poster Presentation @ Alberta RISE Conference 2024"
 publication_short: ""
 
-# abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Safety in physical human-robot interaction (pHRI) is an important area of research. Impedance control methods require force feedback, appropriate sensing, and are coordinate dependent. The alternatives are energy-limiting approaches, but such schemes may be complex to implement. We propose an adaptive PD controller by extending these energy limitation concepts to PD controllers! We can ensure safety by complying with the ISO/TS 15066 standards.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -27,10 +27,10 @@ tags:
 
 featured: true
 
-# links:
-# - name: Custom Link
-#   url: http://example.org
-# url_pdf: http://arxiv.org/pdf/1512.04133v1
+links:
+- name: Poster Link
+  url: https://drive.google.com/file/d/1pgoa24Q3u4aZPY874IuzJ_MOshxPQOor/view?usp=sharing
+  # url_pdf: https://drive.google.com/file/d/1pgoa24Q3u4aZPY874IuzJ_MOshxPQOor/view?usp=sharing
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'

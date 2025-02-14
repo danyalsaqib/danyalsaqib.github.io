@@ -132,7 +132,9 @@ languages:
   - name: Urdu
     percent: 100
   - name: Punjabi
-    percent: 80
+    percent: 100
+  - name: German
+    percent: 20
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -164,4 +166,4 @@ awards:
 
 ## About Me
 
-I am a MSc student at the University of Calgary's Mechanical Engineering department, with research focusing on Robotics and Controls. I am a part of the Human-Robot Collaboration lab, supervised by Dr. Marie Charbonneau. My research focuses on control algorithms that can make physical Human-Robot interaction safe, by behaving compliantly (or softly) in response to human contact.
+I am a MSc student at the University of Calgary's Mechanical Engineering department, with research focusing on Robotics and Controls. I am a part of the Calgary Human-Robot Collaboration lab, supervised by Dr. Marie Charbonneau. My research focuses on control algorithms that can make physical human-robot interaction safe, by behaving compliantly (or softly) in response to human contact.
