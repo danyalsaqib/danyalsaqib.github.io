@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Danyal Saqib</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Danyal Saqib</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu3993707152045351675.png</url><title>Danyal Saqib</title><link>/</link></image><item><title>🎉 Poster Presentation - Alberta RISE Conference 2024</title><link>/post/alberta_rise/</link><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><guid>/post/alberta_rise/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Danyal Saqib</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Danyal Saqib</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu_19839fc45fa3315a.png</url><title>Danyal Saqib</title><link>/</link></image><item><title>🎉 Defended my Master's Thesis!</title><link>/post/alberta_rise-copy/</link><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><guid>/post/alberta_rise-copy/</guid><description>
+&lt;details class="print:hidden xl:hidden" open>
+&lt;summary>Table of Contents&lt;/summary>
+&lt;div class="text-sm">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#thesis-defense">Thesis Defense&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/details>
+&lt;h2 id="thesis-defense">Thesis Defense&lt;/h2>
+&lt;p>On January 15th 2025, I successfully defended my Master&amp;rsquo;s Thesis in the Department of Mechanical and Manufacturing Engineering, University of Calgary. My thesis is titled &amp;ldquo;Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction&amp;rdquo;, and proposes a novel control algorithm for safe physical human-robot interaction. The thesis may be found
+.&lt;/p></description></item><item><title>🎉 Poster Presentation - Alberta RISE Conference 2024</title><link>/post/alberta_rise/</link><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><guid>/post/alberta_rise/</guid><description>
 &lt;details class="print:hidden xl:hidden" open>
 &lt;summary>Table of Contents&lt;/summary>
 &lt;div class="text-sm">
@@ -10,7 +23,7 @@
 &lt;/div>
 &lt;/details>
 &lt;h2 id="poster-presentation">Poster Presentation&lt;/h2>
-&lt;p>Our abstract titled &amp;ldquo;Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction&amp;rdquo; has been accepted for a poster presentation at the Alberta RISE Conference 2024! The conference will be held at the University of Alberta in November 2024, and will host various researchers and industry experts to talk about the latest in robotics. Looking forward to seeing everyone there!&lt;/p></description></item><item><title>Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction</title><link>/publication/preprint/</link><pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate><guid>/publication/preprint/</guid><description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs. -->
+&lt;p>Our abstract titled &amp;ldquo;Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction&amp;rdquo; has been accepted for a poster presentation at the Alberta RISE Conference 2024! The conference will be held at the University of Alberta in November 2024, and will host various researchers and industry experts to talk about the latest in robotics. Looking forward to seeing everyone there!&lt;/p></description></item><item><title>Adaptive PD Gains for Energy-Conscious Control in Physical Human-Robot Interaction</title><link>/publication/alberta_rise_poster/</link><pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate><guid>/publication/alberta_rise_poster/</guid><description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs. -->
 &lt;!--
 &lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
 &lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
