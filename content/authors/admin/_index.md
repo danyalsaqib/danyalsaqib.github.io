@@ -55,7 +55,7 @@ education:
   - area: MSc Mechanical Engineering
     institution: University of Calgary
     date_start: 2022-09-01
-    # date_end: 
+    date_end: 2025-01-30
     summary: |
       I am researching novel Compliant Control algorithms, for safe human-robot interaction.
     # button:
