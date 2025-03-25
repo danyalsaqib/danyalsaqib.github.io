@@ -57,10 +57,10 @@ education:
     date_start: 2022-09-01
     date_end: 2025-01-30
     summary: |
-      I am researching novel Compliant Control algorithms, for safe human-robot interaction.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
+      I researched novel compliant control algorithms, for safe human-robot interaction. My thesis proposed a novel energy-conscious adaptive PD controller for safe pHRI.
+    button:
+      text: 'MSc Thesis'
+      url: 'https://prism.ucalgary.ca/items/cdf66541-e6c6-468b-a76a-7e4d9721a715'
   - area: BSc Electrical Engineering
     institution: National University of Sciences and Technology (NUST)
     date_start: 2017-09-01
@@ -68,6 +68,9 @@ education:
     summary: |
       Completed my Bachelor's in Electrical Engineering from SEECS, NUST, Islamabad, Pakistan. My undergraduate thesis was in the domain
       of self-supervised robotic learning.
+    button:
+      text: 'BSc Thesis'
+      url: 'https://arxiv.org/abs/2410.14084'
 # work:
 #   - position: Director of Cloud Infrastructure
 #     company_name: GenCoin
