@@ -1,1 +1,1 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+Danyal Saqib's academic website. Credit for the template source code goes to [Jon Barron](https://jonbarron.info/).
