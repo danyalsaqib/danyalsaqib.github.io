@@ -1,66 +1,37 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+/* =========================================================
+   LAYOUT VARIABLES
+   ========================================================= */
+
+:root {
+  --layout-width: 1150px;
+  --sidebar-width: 260px;
+  --sidebar-content-gap: 65px;
+  --content-width: 850px;
+  --layout-shift: -50px;
 }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+
+/* =========================================================
+   BASE
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+
+  color: #222222;
+  background: #ffffff;
 }
 
 a {
@@ -68,77 +39,715 @@ a {
   text-decoration: none;
 }
 
-a:focus,
-a:hover {
+a:hover,
+a:focus {
   color: #f09228;
   text-decoration: none;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+h1,
+h2,
+h3 {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  font-weight: 400;
 }
 
 h2 {
-  margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 18px;
+
   font-size: 22px;
+  font-weight: 400;
 }
 
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  display: inline-block;
-  padding-bottom: 5px;
+h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  font-size: 17px;
+  font-weight: 400;
 }
 
-.name {
-  padding-top: 20px;
-  margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.sidebar {
+  position: fixed;
+
+  top: 0;
+
+  /*
+   * Centers the entire sidebar + main-content layout.
+   *
+   * On smaller desktop screens this never gets closer than
+   * 25px to the left edge.
+   */
+  left: max(
+  25px,
+  calc((100vw - var(--layout-width)) / 2 + var(--layout-shift))
+);
+
+  width: var(--sidebar-width);
+  height: 100vh;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  overflow-y: auto;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
+
+/*
+ * The divider is placed on sidebar-inner rather than sidebar
+ * so that it only extends alongside the navigation content
+ * instead of running from the top to bottom of the screen.
+ */
+
+.sidebar-inner {
   position: relative;
+
+  margin-top: 50px;
+  margin-left: 32px;
+
+  padding-right: 32px;
+  padding-bottom: 35px;
+
+  border-right: 1px solid #bcbcbc;
 }
 
-.two {
+
+/* Name */
+
+.sidebar-name {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #222222;
+
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sidebar-name:hover {
+  color: #1772d0;
+}
+
+
+/* Position / university */
+
+.sidebar-position {
+  margin-bottom: 42px;
+
+  color: #777777;
+
+  font-size: 12.5px;
+  line-height: 1.55;
+  
+}
+
+
+/* =========================================================
+   SIDEBAR NAVIGATION
+   ========================================================= */
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav > a,
+.nav-group a {
+  display: block;
+
+  padding: 5px 0;
+
+  color: #555555;
+
+  font-size: 16px;
+}
+
+.sidebar-nav a:hover {
+  color: #1772d0;
+}
+
+.sidebar-nav a.active {
+  color: #1772d0;
+  font-weight: 700;
+}
+
+
+/* Navigation groups */
+
+.nav-group {
+  margin-top: 26px;
+}
+
+.nav-group-title {
+  margin-bottom: 5px;
+
+  color: #222222;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+
+/* External links */
+
+.sidebar-external {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 45px;
+
+  gap: 8px;
+}
+
+.sidebar-external a {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  color: #777777;
+
+  font-size: 14px;
+}
+
+.sidebar-external a:hover {
+  color: #1772d0;
+}
+
+.sidebar-external i {
+  width: 18px;
+
+  font-size: 16px;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.main-content {
+  margin-left: max(
+    calc(
+      25px
+      + var(--sidebar-width)
+      + var(--sidebar-content-gap)
+    ),
+    calc(
+      (100vw - var(--layout-width)) / 2
+      + var(--layout-shift)
+      + var(--sidebar-width)
+      + var(--sidebar-content-gap)
+    )
+  );
+
+  min-height: 100vh;
+}
+
+
+.content-container {
+  width: 100%;
+  max-width: var(--content-width);
+
+  box-sizing: border-box;
+
+  padding: 55px 0 80px 0;
+
+  margin: 0;
+}
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+.page-title {
+  margin-bottom: 38px;
+}
+
+.content-section {
+  margin-bottom: 45px;
+}
+
+.content-section + .content-section {
+  padding-top: 38px;
+
+  border-top: 1px solid #eeeeee;
+}
+
+
+/* =========================================================
+   HOME
+   ========================================================= */
+
+.profile-grid {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) 215px;
+
+  gap: 45px;
+
+  align-items: start;
+}
+
+.home-name {
+  margin-bottom: 25px;
+
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.profile-photo {
+  display: block;
+
+  width: 100%;
+  max-width: 215px;
+
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.home-links {
+  margin-top: 24px;
+}
+
+.home-links a {
+  white-space: nowrap;
+}
+
+.outside-work {
+  margin-top: 45px;
+}
+
+
+/* =========================================================
+   RESEARCH
+   ========================================================= */
+
+.research-topic {
+  margin-bottom: 35px;
+}
+
+.research-topic:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   NEWS
+   ========================================================= */
+
+.news-list {
+  margin-top: 15px;
+}
+
+.news-item {
+  display: grid;
+
+  grid-template-columns: 90px minmax(0, 1fr);
+
+  gap: 22px;
+
+  margin-bottom: 22px;
+}
+
+.news-date {
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.news-text {
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+
+.publication-category {
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.publication-category:first-of-type {
+  margin-top: 30px;
+}
+
+
+.publication {
+  display: grid;
+
+  grid-template-columns: 160px minmax(0, 1fr);
+
+  gap: 30px;
+
+  align-items: start;
+
+  margin-bottom: 50px;
+}
+
+
+.publication-image {
   width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+  height: auto;
+
+  box-sizing: border-box;
+
+  border: 1px solid #222222;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+
+.publication-title {
+  display: inline-block;
+
+  margin-bottom: 5px;
+
+  font-weight: 700;
+  line-height: 1.45;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+
+.publication-authors {
+  margin-top: 1px;
+  margin-bottom: 2px;
 }
 
-.colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
+
+.publication-venue {
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+
+.publication-description {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   TEACHING
+   ========================================================= */
+
+.teaching-entry {
+  display: grid;
+
+  grid-template-columns: 160px minmax(0, 1fr);
+
+  gap: 30px;
+
+  align-items: start;
+
+  margin-bottom: 55px;
+}
+
+
+.teaching-logo {
+  width: 160px;
+  height: auto;
+
+  border: 1px solid #222222;
+}
+
+
+.teaching-title {
+  font-weight: 700;
+}
+
+
+.teaching-courses {
+  margin-top: 10px;
+
+  padding-left: 22px;
+}
+
+.teaching-courses li {
+  margin-bottom: 5px;
+}
+
+
+/* =========================================================
+   SERVICE
+   ========================================================= */
+
+.service-entry {
+  margin-bottom: 35px;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.site-footer {
+  margin-top: 70px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid #eeeeee;
+
+  color: #999999;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   TABLET / MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  /*
+   * Sidebar becomes a normal top navigation area.
+   */
+
+  .sidebar {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    width: 100%;
+    height: auto;
+
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+
+    overflow: visible;
+  }
+
+
+  /*
+   * Remove the vertical divider on mobile.
+   */
+
+  .sidebar-inner {
+    margin: 0;
+
+    padding: 25px;
+
+    border-right: none;
+  }
+
+
+  .sidebar-name {
+    font-size: 22px;
+  }
+
+
+  .sidebar-position {
+    margin-bottom: 20px;
+  }
+
+
+  /*
+   * Turn navigation into horizontal links.
+   */
+
+  .sidebar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 8px 20px;
+  }
+
+
+  .sidebar-nav > a {
+    padding: 3px 0;
+  }
+
+
+  /*
+   * On mobile, remove the group headings so the menu becomes
+   * one simple horizontal list.
+   */
+
+  .nav-group {
+    display: contents;
+  }
+
+
+  .nav-group-title {
+    display: none;
+  }
+
+
+  .nav-group a {
+    padding: 3px 0;
+  }
+
+
+  /*
+   * External links become horizontal as well.
+   */
+
+  .sidebar-external {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 5px 16px;
+
+    margin-top: 20px;
+  }
+
+
+  /*
+   * Main content returns to normal positioning.
+   */
+
+  .main-content {
+    margin-left: 0;
+  }
+
+
+  .content-container {
+    width: auto;
+    max-width: none;
+
+    margin: 0;
+
+    padding: 35px 25px 60px 25px;
+  }
+
+
+  /* Home profile */
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .profile-photo {
+    width: 170px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .profile-text {
+    order: 2;
+  }
+
+
+  .profile-image-container {
+    order: 1;
+  }
+
+
+  .home-name {
+    text-align: center;
+  }
+
+
+  /* News */
+
+  .news-item {
+    grid-template-columns: 75px minmax(0, 1fr);
+
+    gap: 15px;
+  }
+
+
+  /* Publications */
+
+  .publication {
+    grid-template-columns: 1fr;
+  }
+
+
+  .publication-image {
+    width: 140px;
+  }
+
+
+  /* Teaching */
+
+  .teaching-entry {
+    grid-template-columns: 1fr;
+  }
+
+
+  .teaching-logo {
+    width: 140px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .news-item {
+    display: block;
+  }
+
+
+  .news-date {
+    margin-bottom: 5px;
+  }
+
+}
+
+/* =========================================================
+   HOME NEWS
+   ========================================================= */
+
+.home-news {
+  margin-top: 50px;
+}
+
+.home-news .news-list {
+  margin-top: 22px;
+}
+
+.home-news .news-item {
+  margin-bottom: 18px;
+}
+
+.view-all-link {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.view-all-link a {
+  font-size: 13px;
+  font-weight: 700;
 }
