@@ -90,16 +90,10 @@ h3 {
 
   top: 0;
 
-  /*
-   * Centers the entire sidebar + main-content layout.
-   *
-   * On smaller desktop screens this never gets closer than
-   * 25px to the left edge.
-   */
   left: max(
-  25px,
-  calc((100vw - var(--layout-width)) / 2 + var(--layout-shift))
-);
+    25px,
+    calc((100vw - var(--layout-width)) / 2 + var(--layout-shift))
+  );
 
   width: var(--sidebar-width);
   height: 100vh;
@@ -113,9 +107,8 @@ h3 {
 
 
 /*
- * The divider is placed on sidebar-inner rather than sidebar
- * so that it only extends alongside the navigation content
- * instead of running from the top to bottom of the screen.
+ * Divider is placed on sidebar-inner rather than sidebar,
+ * so it only spans the navigation content.
  */
 
 .sidebar-inner {
@@ -159,7 +152,6 @@ h3 {
 
   font-size: 12.5px;
   line-height: 1.55;
-  
 }
 
 
@@ -269,7 +261,6 @@ h3 {
   min-height: 100vh;
 }
 
-
 .content-container {
   width: 100%;
   max-width: var(--content-width);
@@ -349,6 +340,33 @@ h3 {
 
 
 /* =========================================================
+   HOME NEWS
+   ========================================================= */
+
+.home-news {
+  margin-top: 50px;
+}
+
+.home-news .news-list {
+  margin-top: 22px;
+}
+
+.home-news .news-item {
+  margin-bottom: 18px;
+}
+
+.view-all-link {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.view-all-link a {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
    RESEARCH
    ========================================================= */
 
@@ -362,31 +380,171 @@ h3 {
 
 
 /* =========================================================
+   ROBOT GALLERY
+   ========================================================= */
+
+.robot-gallery {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 28px;
+
+  margin-top: 30px;
+
+  align-items: end;
+}
+
+.robot-card {
+  margin: 0;
+
+  text-align: center;
+}
+
+.robot-card img {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 4px;
+}
+
+.robot-card figcaption {
+  margin-top: 9px;
+
+  color: #777777;
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  text-align: center;
+}
+
+
+/*
+ * Individual robot image sizes.
+ *
+ * Change these percentages whenever you want to adjust
+ * one robot independently of the other.
+ */
+
+.reachy-image {
+  width: 60%;
+}
+
+.talos-image {
+  width: 40%;
+}
+
+
+/* =========================================================
    NEWS
    ========================================================= */
+
+.news-intro {
+  max-width: 650px;
+
+  margin-top: -15px;
+  margin-bottom: 40px;
+
+  color: #666666;
+
+  line-height: 1.6;
+}
+
 
 .news-list {
   margin-top: 15px;
 }
 
-.news-item {
-  display: grid;
 
+.news-item {
+  position: relative;
+
+  display: grid;
   grid-template-columns: 90px minmax(0, 1fr);
 
-  gap: 22px;
-
-  margin-bottom: 22px;
+  gap: 28px;
 }
 
+
+/* Date */
+
 .news-date {
+  padding-top: 2px;
+
+  color: #444444;
+
+  font-size: 14px;
   font-weight: 700;
 
   white-space: nowrap;
 }
 
+
+/* News content */
+
 .news-text {
-  line-height: 1.55;
+  position: relative;
+
+  padding-left: 25px;
+  padding-bottom: 30px;
+
+  border-left: 1px solid #d8d8d8;
+
+  line-height: 1.6;
+}
+
+
+/* Timeline marker */
+
+.news-text::before {
+  content: "";
+
+  position: absolute;
+
+  top: 7px;
+  left: -4.5px;
+
+  width: 8px;
+  height: 8px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 2px solid #777777;
+  border-radius: 50%;
+}
+
+
+/* Highlight newest entry */
+
+.news-item:first-child .news-date {
+  color: #1772d0;
+}
+
+.news-item:first-child .news-text::before {
+  background: #1772d0;
+  border-color: #1772d0;
+}
+
+
+/* End timeline after final item */
+
+.news-item:last-child .news-text {
+  border-left-color: transparent;
+}
+
+
+/* Links */
+
+.news-text a {
+  font-weight: 500;
 }
 
 
@@ -394,16 +552,33 @@ h3 {
    PUBLICATIONS
    ========================================================= */
 
-.publication-category {
-  margin-top: 50px;
-  margin-bottom: 25px;
-
-  font-size: 18px;
-  font-weight: 400;
+.publications-intro {
+  margin-bottom: 20px;
 }
 
+.publications-intro a {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 5px;
+}
+
+
+.publication-category {
+  margin-top: 55px;
+  margin-bottom: 30px;
+
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid #eeeeee;
+
+  font-size: 19px;
+  font-weight: 700;
+}
+
+
 .publication-category:first-of-type {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 
@@ -412,17 +587,30 @@ h3 {
 
   grid-template-columns: 160px minmax(0, 1fr);
 
-  gap: 30px;
+  gap: 35px;
 
   align-items: start;
 
-  margin-bottom: 50px;
+  margin-bottom: 55px;
+}
+
+
+.publication-image-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
 }
 
 
 .publication-image {
-  width: 160px;
+  display: block;
+
+  width: 150px;
+  max-width: 100%;
   height: auto;
+
+  margin: 0 auto;
 
   box-sizing: border-box;
 
@@ -433,28 +621,74 @@ h3 {
 .publication-title {
   display: inline-block;
 
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 
+  font-size: 17px;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
 
 .publication-authors {
   margin-top: 1px;
   margin-bottom: 2px;
+
+  line-height: 1.5;
 }
 
 
 .publication-venue {
-  margin-top: 3px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+
+  color: #555555;
+}
+
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 14px;
+
+  margin-top: 10px;
   margin-bottom: 12px;
+
+  font-size: 14px;
+}
+
+
+.publication-links a {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 5px;
 }
 
 
 .publication-description {
   margin-top: 12px;
   margin-bottom: 0;
+
+  line-height: 1.55;
+}
+
+
+.publication-award {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 7px;
+
+  margin-top: 14px;
+
+  padding: 5px 9px;
+
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+
+  font-size: 13px;
+  font-weight: 700;
 }
 
 
@@ -471,28 +705,55 @@ h3 {
 
   align-items: start;
 
+  margin-top: 35px;
   margin-bottom: 55px;
 }
 
 
+.teaching-logo-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
 .teaching-logo {
+  display: block;
+
   width: 160px;
+  max-width: 100%;
   height: auto;
 
-  border: 1px solid #222222;
+  object-fit: contain;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
 }
 
 
 .teaching-title {
+  margin-bottom: 2px;
+
   font-weight: 700;
 }
 
 
+.teaching-role {
+  margin-bottom: 10px;
+
+  color: #777777;
+
+  font-size: 14px;
+}
+
+
 .teaching-courses {
-  margin-top: 10px;
+  margin-top: 8px;
 
   padding-left: 22px;
 }
+
 
 .teaching-courses li {
   margin-bottom: 5px;
@@ -500,7 +761,7 @@ h3 {
 
 
 /* =========================================================
-   SERVICE
+   SERVICE / ADVOCACY
    ========================================================= */
 
 .service-entry {
@@ -532,7 +793,7 @@ h3 {
 @media (max-width: 800px) {
 
   /*
-   * Sidebar becomes a normal top navigation area.
+   * Sidebar becomes a top navigation area.
    */
 
   .sidebar {
@@ -552,7 +813,7 @@ h3 {
 
 
   /*
-   * Remove the vertical divider on mobile.
+   * Remove vertical sidebar divider on mobile.
    */
 
   .sidebar-inner {
@@ -575,7 +836,7 @@ h3 {
 
 
   /*
-   * Turn navigation into horizontal links.
+   * Turn main navigation into horizontal links.
    */
 
   .sidebar-nav {
@@ -592,8 +853,7 @@ h3 {
 
 
   /*
-   * On mobile, remove the group headings so the menu becomes
-   * one simple horizontal list.
+   * Hide group titles on mobile and flatten navigation.
    */
 
   .nav-group {
@@ -612,21 +872,21 @@ h3 {
 
 
   /*
-   * External links become horizontal as well.
+   * External links become horizontal.
    */
 
   .sidebar-external {
     flex-direction: row;
     flex-wrap: wrap;
 
-    gap: 5px 16px;
+    gap: 8px 18px;
 
     margin-top: 20px;
   }
 
 
   /*
-   * Main content returns to normal positioning.
+   * Main content returns to normal document flow.
    */
 
   .main-content {
@@ -644,7 +904,9 @@ h3 {
   }
 
 
-  /* Home profile */
+  /* =======================================================
+     HOME — MOBILE
+     ======================================================= */
 
   .profile-grid {
     grid-template-columns: 1fr;
@@ -674,37 +936,115 @@ h3 {
   }
 
 
-  /* News */
+  /* =======================================================
+     ROBOT GALLERY — MOBILE
+     ======================================================= */
 
-  .news-item {
-    grid-template-columns: 75px minmax(0, 1fr);
+  .robot-gallery {
+    grid-template-columns: 1fr;
 
-    gap: 15px;
+    gap: 35px;
+
+    margin-top: 28px;
   }
+
+
+  /*
+   * Keep each image centered and independently scalable.
+   */
+
+  .reachy-image {
+    width: 50%;
+  }
+
+  .talos-image {
+    width: 35%;
+  }
+
+
+  .robot-card figcaption {
+    margin-top: 8px;
+  }
+
+
+  /* =======================================================
+   NEWS — MOBILE
+   ======================================================= */
+
+.news-item {
+  grid-template-columns: 75px minmax(0, 1fr);
+
+  gap: 15px;
+}
+
+.news-text {
+  padding-left: 20px;
+  padding-bottom: 28px;
+}
 
 
   /* Publications */
 
-  .publication {
-    grid-template-columns: 1fr;
-  }
+.publication {
+  grid-template-columns: 1fr;
+
+  gap: 20px;
+}
+
+.publication-image-container {
+  justify-content: flex-start;
+}
+
+.publication-image {
+  width: 140px;
+}
+
+.publication-category {
+  margin-top: 45px;
+}
+
+.publication-title {
+  font-size: 17px;
+}
 
 
-  .publication-image {
-    width: 140px;
-  }
-
+  /* =======================================================
+     TEACHING — MOBILE
+     ======================================================= */
 
   /* Teaching */
 
-  .teaching-entry {
-    grid-template-columns: 1fr;
-  }
+.teaching-entry {
+  grid-template-columns: 1fr;
+
+  gap: 20px;
+}
 
 
-  .teaching-logo {
-    width: 140px;
-  }
+.teaching-logo-container {
+  justify-content: flex-start;
+}
+
+
+.teaching-logo {
+  width: 140px;
+}
+
+  /* Advocacy */
+
+.advocacy-entry {
+  grid-template-columns: 1fr;
+
+  gap: 20px;
+}
+
+.advocacy-logo {
+  width: 140px;
+}
+
+.advocacy-logo-container {
+  justify-content: flex-start;
+}
 
 }
 
@@ -715,39 +1055,107 @@ h3 {
 
 @media (max-width: 480px) {
 
-  .news-item {
-    display: block;
+  body {
+    font-size: 15px;
   }
 
 
-  .news-date {
-    margin-bottom: 5px;
+  .content-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  /*
+   * News dates move above their corresponding item.
+   */
+
+  .news-intro {
+  margin-bottom: 30px;
+}
+
+.news-item {
+  display: block;
+}
+
+.news-date {
+  margin-bottom: 7px;
+
+  font-size: 14px;
+}
+
+.news-text {
+  margin-left: 4px;
+
+  padding-left: 20px;
+  padding-bottom: 28px;
+}
+
+.news-text::before {
+  top: 8px;
+}
+
+
+  /*
+   * Slightly enlarge robot images compared with the tablet
+   * percentages because there is only one narrow column.
+   */
+
+  .reachy-image {
+    width: 65%;
+  }
+
+
+  .talos-image {
+    width: 48%;
   }
 
 }
 
 /* =========================================================
-   HOME NEWS
+   COMMUNITY & ADVOCACY
    ========================================================= */
 
-.home-news {
-  margin-top: 50px;
+.advocacy-entry {
+  display: grid;
+
+  grid-template-columns: 160px minmax(0, 1fr);
+
+  gap: 30px;
+
+  align-items: start;
+
+  margin-top: 35px;
+  margin-bottom: 55px;
 }
 
-.home-news .news-list {
-  margin-top: 22px;
+.advocacy-logo-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.home-news .news-item {
-  margin-bottom: 18px;
+.advocacy-logo {
+  display: block;
+
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+
+  object-fit: contain;
+
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #000000;
 }
 
-.view-all-link {
-  margin-top: 25px;
-  margin-bottom: 0;
-}
+.advocacy-title {
+  margin-bottom: 10px;
 
-.view-all-link a {
-  font-size: 13px;
   font-weight: 700;
+}
+
+.advocacy-content p:last-child {
+  margin-bottom: 0;
 }

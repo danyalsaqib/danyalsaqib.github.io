@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="nav-group">
           <div class="nav-group-title">Extra</div>
 
-          <a href="service.html" data-page="service.html">
-            Service
+          <a href="community_advocacy.html" data-page="community_advocacy.html">
+            Community and Advocacy
           </a>
         </div>
 

@@ -8,7 +8,7 @@ const newsItems = [
         target="_blank"
         rel="noopener noreferrer"
       >
-        ISA Scholarships
+        ISA Educational Scholarships
       </a>
       for 2026!
     `
