@@ -1,5 +1,18 @@
 const newsItems = [
   {
+    date: "Oct. '26",
+    text: `
+      Our paper,
+      "<a
+        href="https://arxiv.org/abs/2610.08987"
+        target="_blank"
+        rel="noopener noreferrer"
+      >The internal model principle in reservoir computing</a>",
+      is now available! It has been submitted to the American Controls Conference (ACC) 2027.
+    `
+  },
+
+  {
     date: "Aug. '26",
     text: `
       Glad to be chosen as one of the recipients of the
@@ -14,20 +27,19 @@ const newsItems = [
     `
   },
 
+  
   {
     date: "May. '26",
     text: `
-      Our paper
-      <a
+      Our paper,
+      "<a
         href="https://arxiv.org/abs/2606.00459"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        Adaptive PD Gains for Energy-Conscious Control in
-        Physical Human-Robot Interaction
-      </a>
+      >Adaptive PD Gains for Energy-Conscious Control in
+        Physical Human-Robot Interaction</a>",
       received the <strong>Best Paper Award in Robotics</strong>
-      at the 23rd Conference on Robots and Vision (CRV 2026)!
+      at the 23rd Conference on Robots and Vision (CRV) 2026!
     `
   },
 
